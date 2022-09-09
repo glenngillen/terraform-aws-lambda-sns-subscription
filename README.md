@@ -7,7 +7,7 @@ an SNS topic straight-forward.
 
 ```hcl
 module "build" {
-  source  = "glenngillen/aws-lambda-sns-subscription/module"
+  source  = "glenngillen/lambda-sns-subscription/module"
   version = "1.0.0"
 
   lambda_name = "my-function"
